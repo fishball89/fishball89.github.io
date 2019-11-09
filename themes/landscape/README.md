@@ -1,4 +1,4 @@
-# Landscape
+<!-- # Landscape
 
 A brand new default theme for [Hexo].
 
@@ -110,3 +110,4 @@ All of them are enabled by default. You can edit them in `widget` setting.
 [Font Awesome]: http://fontawesome.io/
 [Grunt]: http://gruntjs.com/
 [hexo-generate-feed]: https://github.com/hexojs/hexo-generator-feed
+ -->

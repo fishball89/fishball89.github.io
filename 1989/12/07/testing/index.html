@@ -5,18 +5,28 @@
   
 
   
-  <title>Hexo</title>
+  <title>How to setup Hugo? 試下打中文 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;fishball89.github.io&#x2F;index.html">
+  <meta name="description" content="A Fast and Flexible Static Site Generator built with love by bep, spf13 and friends in Go. Website |Forum |Documentation |Installation Guide |Contribution Guide |Twitter  OverviewHugo is a static HT">
+<meta name="keywords" content="golang,hugo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to setup Hugo? 試下打中文">
+<meta property="og:url" content="http:&#x2F;&#x2F;fishball89.github.io&#x2F;1989&#x2F;12&#x2F;07&#x2F;testing&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="A Fast and Flexible Static Site Generator built with love by bep, spf13 and friends in Go. Website |Forum |Documentation |Installation Guide |Contribution Guide |Twitter  OverviewHugo is a static HT">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;gohugoio&#x2F;gohugoioTheme&#x2F;master&#x2F;static&#x2F;images&#x2F;hugo-logo-wide.svg?sanitize=true">
+<meta property="og:image" content="https:&#x2F;&#x2F;godoc.org&#x2F;github.com&#x2F;gohugoio&#x2F;hugo?status.svg">
+<meta property="og:image" content="https:&#x2F;&#x2F;api.travis-ci.org&#x2F;gohugoio&#x2F;hugo.svg?branch=master&amp;label=Windows+and+Linux+and+macOS+build">
+<meta property="og:image" content="https:&#x2F;&#x2F;goreportcard.com&#x2F;badge&#x2F;github.com&#x2F;gohugoio&#x2F;hugo">
+<meta property="og:image" content="https:&#x2F;&#x2F;ga-beacon.appspot.com&#x2F;UA-7131036-6&#x2F;hugo&#x2F;readme">
+<meta property="og:updated_time" content="2019-11-24T16:47:05.323Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;gohugoio&#x2F;gohugoioTheme&#x2F;master&#x2F;static&#x2F;images&#x2F;hugo-logo-wide.svg?sanitize=true">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -86,260 +96,14 @@
     
     <div class="row">
       <div class="col-md-8 blog-main">
-        <section class="blog-post">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section class="blog-post"><article id="post-testing" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/24/hello-world/">It’s the end of world trade as we know it? WTO nears ‘doomsday scenario’</a>
-    </h1>
-  
-
-      </header>
-        
-    <!-- <a href="/2019/11/24/hello-world/" class="article-date"> -->
-  <time class="article-date" datetime="2019-11-24T16:47:05.323Z" itemprop="datePublished">24th Nov 2019</time>
-<!-- </a> -->
-    
-  </div>
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://fishball89.github.io/2019/11/24/hello-world/" data-id="ck3d8jppt0000zzofe0b9cv4l" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-sample" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/23/sample/">sample</a>
-    </h1>
-  
-
-      </header>
-        
-    <!-- <a href="/2019/11/23/sample/" class="article-date"> -->
-  <time class="article-date" datetime="2019-11-23T20:34:22.000Z" itemprop="datePublished">23rd Nov 2019</time>
-<!-- </a> -->
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/tech/">tech</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<p><strong>Advertisement :)</strong></p>
-<ul>
-<li><strong><a href="https://nodeca.github.io/pica/demo/" target="_blank" rel="noopener">pica</a></strong> - high quality and fast image<br>resize in browser.</li>
-<li><strong><a href="https://github.com/nodeca/babelfish/" target="_blank" rel="noopener">babelfish</a></strong> - developer friendly<br>i18n with plurals support and easy syntax.</li>
-</ul>
-<p>You will like those projects!</p>
-<hr>
-<h1 id="h1-Heading-8"><a href="#h1-Heading-8" class="headerlink" title="h1 Heading 8-)"></a>h1 Heading 8-)</h1><h2 id="h2-Heading"><a href="#h2-Heading" class="headerlink" title="h2 Heading"></a>h2 Heading</h2><h3 id="h3-Heading"><a href="#h3-Heading" class="headerlink" title="h3 Heading"></a>h3 Heading</h3><h4 id="h4-Heading"><a href="#h4-Heading" class="headerlink" title="h4 Heading"></a>h4 Heading</h4><h5 id="h5-Heading"><a href="#h5-Heading" class="headerlink" title="h5 Heading"></a>h5 Heading</h5><h6 id="h6-Heading"><a href="#h6-Heading" class="headerlink" title="h6 Heading"></a>h6 Heading</h6><h2 id="Horizontal-Rules"><a href="#Horizontal-Rules" class="headerlink" title="Horizontal Rules"></a>Horizontal Rules</h2><hr>
-<hr>
-<hr>
-<h2 id="Typographic-replacements"><a href="#Typographic-replacements" class="headerlink" title="Typographic replacements"></a>Typographic replacements</h2><p>Enable typographer option to see result.</p>
-<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>
-<p>test.. test… test….. test?….. test!….</p>
-<p>!!!!!! ???? ,,  – —</p>
-<p>“Smartypants, double quotes” and ‘single quotes’</p>
-<h2 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h2><p><strong>This is bold text</strong></p>
-<p><strong>This is bold text</strong></p>
-<p><em>This is italic text</em></p>
-<p><em>This is italic text</em></p>
-<p><del>Strikethrough</del></p>
-<h2 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h2><blockquote>
-<p>Blockquotes can also be nested…</p>
-<blockquote>
-<p>…by using additional greater-than signs right next to each other…</p>
-<blockquote>
-<p>…or with spaces between arrows.</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h2><p>Unordered</p>
-<ul>
-<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
-<li>Sub-lists are made by indenting 2 spaces:<ul>
-<li>Marker character change forces new list start:<ul>
-<li>Ac tristique libero volutpat at</li>
-</ul>
-<ul>
-<li>Facilisis in pretium nisl aliquet</li>
-</ul>
-<ul>
-<li>Nulla volutpat aliquam velit</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Very easy!</li>
-</ul>
-<p>Ordered</p>
-<ol>
-<li>Lorem ipsum dolor sit amet</li>
-<li>Consectetur adipiscing elit</li>
-<li>Integer molestie lorem at massa</li>
-</ol>
-<ol>
-<li>You can use sequential numbers…</li>
-<li>…or keep all the numbers as <code>1.</code></li>
-</ol>
-<p>Start numbering with offset:</p>
-<ol start="57">
-<li>foo</li>
-<li>bar</li>
-</ol>
-<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><p>Inline <code>code</code></p>
-<p>Indented code</p>
-<pre><code>// Some comments
-line 1 of code
-line 2 of code
-line 3 of code</code></pre><p>Block code “fences”</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sample text here...</span><br></pre></td></tr></table></figure>
-
-<p>Syntax highlighting</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> foo = <span class="function"><span class="keyword">function</span> (<span class="params">bar</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> bar++;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(foo(<span class="number">5</span>));</span><br></pre></td></tr></table></figure>
-
-<h2 id="Tables"><a href="#Tables" class="headerlink" title="Tables"></a>Tables</h2><table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>data</td>
-<td>path to data files to supply the data that will be passed into templates.</td>
-</tr>
-<tr>
-<td>engine</td>
-<td>engine to be used for processing templates. Handlebars is the default.</td>
-</tr>
-<tr>
-<td>ext</td>
-<td>extension to be used for dest files.</td>
-</tr>
-</tbody></table>
-<p>Right aligned columns</p>
-<table>
-<thead>
-<tr>
-<th align="right">Option</th>
-<th align="right">Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="right">data</td>
-<td align="right">path to data files to supply the data that will be passed into templates.</td>
-</tr>
-<tr>
-<td align="right">engine</td>
-<td align="right">engine to be used for processing templates. Handlebars is the default.</td>
-</tr>
-<tr>
-<td align="right">ext</td>
-<td align="right">extension to be used for dest files.</td>
-</tr>
-</tbody></table>
-<h2 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h2><p><a href="http://dev.nodeca.com" target="_blank" rel="noopener">link text</a></p>
-<p><a href="http://nodeca.github.io/pica/demo/" target="_blank" rel="noopener" title="title text!">link with title</a></p>
-<p>Autoconverted link <a href="https://github.com/nodeca/pica" target="_blank" rel="noopener">https://github.com/nodeca/pica</a> (enable linkify to see)</p>
-<h2 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h2><p><img src="https://octodex.github.com/images/minion.png" alt="Minion"><br><img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat"></p>
-<p>Like links, Images also have a footnote style syntax</p>
-<p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat"></p>
-<p>With a reference later in the document defining the URL location:</p>
-<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><p>The killer feature of <code>markdown-it</code> is very effective support of<br><a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin" target="_blank" rel="noopener">syntax plugins</a>.</p>
-<h3 id="Emojies"><a href="#Emojies" class="headerlink" title="Emojies"></a><a href="https://github.com/markdown-it/markdown-it-emoji" target="_blank" rel="noopener">Emojies</a></h3><blockquote>
-<p>Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</p>
-<p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>
-</blockquote>
-<p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output" target="_blank" rel="noopener">how to change output</a> with twemoji.</p>
-<h3 id="Subscript-Superscript"><a href="#Subscript-Superscript" class="headerlink" title="Subscript / Superscript"></a><a href="https://github.com/markdown-it/markdown-it-sub" target="_blank" rel="noopener">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup" target="_blank" rel="noopener">Superscript</a></h3><ul>
-<li>19^th^</li>
-<li>H<del>2</del>O</li>
-</ul>
-<h3 id="lt-ins-gt"><a href="#lt-ins-gt" class="headerlink" title="&lt;ins&gt;"></a><a href="https://github.com/markdown-it/markdown-it-ins" target="_blank" rel="noopener">&lt;ins&gt;</a></h3><p>++Inserted text++</p>
-<h3 id="lt-mark-gt"><a href="#lt-mark-gt" class="headerlink" title="&lt;mark&gt;"></a><a href="https://github.com/markdown-it/markdown-it-mark" target="_blank" rel="noopener">&lt;mark&gt;</a></h3><p>==Marked text==</p>
-<h3 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a><a href="https://github.com/markdown-it/markdown-it-footnote" target="_blank" rel="noopener">Footnotes</a></h3><p>Footnote 1 link[^first].</p>
-<p>Footnote 2 link[^second].</p>
-<p>Inline footnote^[Text of inline footnote] definition.</p>
-<p>Duplicated footnote reference[^second].</p>
-<p>[^first]: Footnote <strong>can have markup</strong></p>
-<pre><code>and multiple paragraphs.</code></pre><p>[^second]: Footnote text.</p>
-<h3 id="Definition-lists"><a href="#Definition-lists" class="headerlink" title="Definition lists"></a><a href="https://github.com/markdown-it/markdown-it-deflist" target="_blank" rel="noopener">Definition lists</a></h3><p>Term 1</p>
-<p>:   Definition 1<br>with lazy continuation.</p>
-<p>Term 2 with <em>inline markup</em></p>
-<p>:   Definition 2</p>
-<pre><code>    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.</code></pre><p><em>Compact style:</em></p>
-<p>Term 1<br>  ~ Definition 1</p>
-<p>Term 2<br>  ~ Definition 2a<br>  ~ Definition 2b</p>
-<h3 id="Abbreviations"><a href="#Abbreviations" class="headerlink" title="Abbreviations"></a><a href="https://github.com/markdown-it/markdown-it-abbr" target="_blank" rel="noopener">Abbreviations</a></h3><p>This is HTML abbreviation example.</p>
-<p>It converts “HTML”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p>
-<p>*[HTML]: Hyper Text Markup Language</p>
-<h3 id="Custom-containers"><a href="#Custom-containers" class="headerlink" title="Custom containers"></a><a href="https://github.com/markdown-it/markdown-it-container" target="_blank" rel="noopener">Custom containers</a></h3><p>::: warning<br><em>here be dragons</em><br>:::</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://fishball89.github.io/2019/11/23/sample/" data-id="ck3d8jpq40001zzof97vl3n18" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/golang/" rel="tag">golang</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hugo/" rel="tag">hugo</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-testing" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/1989/12/07/testing/">How to setup Hugo? 試下打中文</a>
+    <h1 class="article-title" itemprop="name">
+      How to setup Hugo? 試下打中文
     </h1>
   
 
@@ -405,11 +169,23 @@ Third paragraph of definition 2.</code></pre><p><em>Compact style:</em></p>
     </footer>
   </div>
   
-</article>
-
+    
+<nav id="article-nav">
+  
+    <a href="/2019/11/23/sample/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          sample
+        
+      </div>
+    </a>
+  
+  
+</nav>
 
   
-
+</article>
 
 </section>
       </div>

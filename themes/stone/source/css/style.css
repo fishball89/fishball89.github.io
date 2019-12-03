@@ -93,21 +93,14 @@ nav.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row-reverse;
-}
-@media screen and (min-width: 768px) {
-  nav.menu {
-    flex-direction: row;
-  }
 }
 .menu-brand {
-  font-size: 2em;
+  font-size: 1.2em;
   align-items: center;
-  display: none;
 }
 @media screen and (min-width: 768px) {
   .menu-brand {
-    display: flex;
+    font-size: 1.4em;
   }
 }
 .menu-brand a {
@@ -145,12 +138,35 @@ nav.menu {
   display: block;
   background-color: #1b9aaa;
   mix-blend-mode: overlay;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 @media screen and (min-width: 768px) {
   .header .banner:before {
     padding-top: 25%;
   }
+}
+.profile {
+  padding-top: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.profile-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.profile-title {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.profile-text {
+  text-align: center;
+  line-height: 1.6em;
+  color: #999;
+}
+.profile img {
+  border-radius: 50%;
 }
 .article-title {
   text-transform: capitalize;

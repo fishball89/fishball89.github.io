@@ -1,12 +1,12 @@
 body {
   font-family: 'Work Sans', 'Noto Sans TC', sans-serif;
-  background-color: #f5f1e3;
+  background-color: color-beige;
 }
 body.with-menu {
   padding-top: 5vh;
 }
 a {
-  color: #1b9aaa;
+  color: #3c6e71;
 }
 img {
   max-width: 100%;
@@ -85,7 +85,7 @@ img {
 nav.menu {
   height: 5vh;
   position: fixed;
-  background: #050505;
+  background: color-black;
   width: 100%;
   z-index: 1;
   top: 0;
@@ -136,7 +136,7 @@ nav.menu {
   content: '';
   padding-top: 52%;
   display: block;
-  background-color: #1b9aaa;
+  background-color: color-blue;
   mix-blend-mode: overlay;
   opacity: 0.7;
 }
@@ -459,7 +459,7 @@ pre .javascript .function {
   color: #c9c;
 }
 .footer {
-  background-color: #1b9aaa;
+  background-color: color-blue;
   min-height: 20vh;
 }
 .footer-info {

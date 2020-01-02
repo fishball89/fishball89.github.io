@@ -1,0 +1,75 @@
+nav
+  &.menu
+    height: 40px
+    position: fixed
+    background: color-forest
+    width: 100%
+    z-index: 1
+    top: 0
+    left: 0
+    display flex
+    justify-content space-between
+    align-items center
+    
+    // background-image: linear-gradient(to right, #3c6e71 , #284b63, #ccc);
+    // background-image: linear-gradient(to right, #003853, #3d82ab, #45bb89, #91d4c2);
+    background-image: linear-gradient(to right,#023459, #003853, #45bb89, #91d4c2);    
+    // flex-direction row-reverse
+    // @media mq-normal
+    //   flex-direction row
+    @media mq-normal
+      height: 54px
+      
+.menu
+  &-brand
+    font-size 1.1rem
+    align-items: center
+    display flex
+    @media mq-normal
+      font-size: 1.4rem
+    &-name
+      color color-white
+      padding 0 10px
+      flex 4
+      overflow hidden
+      white-space nowrap
+      text-overflow ellipsis      
+    &-icon
+      display flex
+      align-items center
+      padding 0
+      margin-left 10px
+      flex-basis 32px
+      flex 1
+      max-width 32px
+      img
+        width 32px
+        height 32px
+  &-icon
+    width: 18px
+    height 18px
+    margin 0 20px
+    @media mq-normal
+      width 20px
+      height 20px  
+    svg
+      fill color-white
+      width 100%
+      height 100%
+    path
+      fill color-white
+  &-items
+    display none
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    
+
+
+    //     white-space: nowrap;
+    // text-overflow: ellipsis;
+    // max-width: 80%;
+    // overflow: hidden;

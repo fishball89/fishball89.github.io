@@ -5,7 +5,7 @@ tags:
   - golang
   - hugo
 categories: 
-  - tech
+  - Tech 科技
 ---
 
 ---

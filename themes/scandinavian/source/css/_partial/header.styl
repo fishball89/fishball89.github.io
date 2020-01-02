@@ -1,0 +1,17 @@
+.header
+  .banner
+    background-image: url(banner-url)
+    width: 100%
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    
+    &:before
+      content: ''
+      padding-top: 52%
+      display: block
+      background-color #023459
+      mix-blend-mode overlay
+      opacity 0.6
+      @media mq-normal
+        padding-top: 25%

@@ -1,11 +1,13 @@
 ---
-title: How to setup Hugo? 試下打中文
+title: 北歐5國自由行攻略：丹麥、瑞典、挪威、芬蘭、冰島旅遊必去景點和必吃美食
 date: 07 Dec 1989
 tags: 
   - golang
   - hugo
 categories: 
-  - tech
+  - Tech 科技
+  - [Sports, Baseball]
+  - [MLB, American League, Boston Red Sox]  
 ---
 
 <img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565">

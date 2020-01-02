@@ -1,0 +1,36 @@
+@import "_variables"
+@import "_extend"
+
+body
+  @extend $base-style
+  font-family: 'Work Sans', 'Noto Sans TC', sans-serif
+  // background-color: #efefef
+  margin 0
+  &.with-menu
+    padding-top: 40px
+    @media mq-normal
+      padding-top: 54px
+      
+// h1, h2, h3, h4, h5, h6 
+//   font-family: 'Work Sans', 'Noto Sans TC', sans-serif
+
+main
+  margin-bottom 20px
+  @media mq-normal
+    margin-bottom 45px
+
+a
+  color color-forest
+  text-decoration none
+
+img
+  max-width 100%
+
+
+@import "_partial/nav"
+@import "_partial/header"
+@import "_partial/profile"
+@import "_partial/widget"
+@import "_partial/article"
+@import "_partial/highlight"
+@import "_partial/footer"

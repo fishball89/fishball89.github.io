@@ -7,7 +7,9 @@ tags:
 categories: 
   - Tech 科技
   - [Sports, Baseball]
-  - [MLB, American League, Boston Red Sox]  
+  - [MLB, American League, Boston Red Sox]
+excerpt: This action pushes commits from Git repository connected with Buddy (GitHub, Bitbucket, GitLab, private Git server) or from Buddy’s built-in Git server to another repository with or without artifacts saved to the pipeline’s filesystem.
+
 ---
 
 <img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565">

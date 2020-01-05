@@ -1,6 +1,8 @@
-<% if (post.tags && post.tags.length){ %>
+<%
+  const className = typeof class_name !== 'undefined' ? class_name : 'article-tag'
+  if (post.tags && post.tags.length){ %>
   <%- list_tags(post.tags, {
     show_count: false,
-    class: 'article-tag'
+    class: className,
   }) %>
 <% } %>

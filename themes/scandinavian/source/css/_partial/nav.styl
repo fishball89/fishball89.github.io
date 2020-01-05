@@ -1,32 +1,31 @@
 nav
   &.menu
-    height: 40px
-    position: fixed
-    background: color-forest
-    width: 100%
-    z-index: 1
-    top: 0
-    left: 0
+    height 40px
+    position fixed
+    background color-forest
+    width 100%
+    z-index 1
+    top 0
+    left 0
     display flex
     justify-content space-between
     align-items center
-    
-    // background-image: linear-gradient(to right, #3c6e71 , #284b63, #ccc);
-    // background-image: linear-gradient(to right, #003853, #3d82ab, #45bb89, #91d4c2);
-    background-image: linear-gradient(to right,#023459, #003853, #45bb89, #91d4c2);    
-    // flex-direction row-reverse
-    // @media mq-normal
-    //   flex-direction row
+    background-image linear-gradient(to right,#023459, #003853, #45bb89, #91d4c2)
     @media mq-normal
-      height: 54px
+      height 54px
       
 .menu
+  &-checkbox
+    display none
+    &:checked 
+      & ~ .menu-items
+        transform translateY(0)
   &-brand
     font-size 1.1rem
-    align-items: center
+    align-items center
     display flex
     @media mq-normal
-      font-size: 1.4rem
+      font-size 1.4rem
     &-name
       color color-white
       padding 0 10px
@@ -46,9 +45,10 @@ nav
         width 32px
         height 32px
   &-icon
-    width: 18px
+    width 18px
     height 18px
     margin 0 20px
+    cursor pointer
     @media mq-normal
       width 20px
       height 20px  
@@ -59,17 +59,52 @@ nav
     path
       fill color-white
   &-items
-    display none
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.7);
-    top: 0;
-    left: 0;
+    display flex
+    transition transform .4s ease-in-out
+    transform translateY(-100%)
+    position fixed
+    width 100vw
+    height 100vh
+    top 0
+    left 0
+    background rgba(0, 0, 0, 0.5)    
+    &-bg
+      mix-blend-mode multiply
+      background-image url('/images/menu.jpg')
+      background-repeat no-repeat
+      background-size cover
+      background-position center 
+      width 100%
+      height 100%
+      display flex
+      position absolute
+      z-index -1
+      opacity 0.8
+    &-categories-list
+      margin 0
+      padding 0
+      list-style none
+      display flex
+      flex-direction column
+      color color-white
+      flex 1
+      justify-content center
+      text-align center  
+      &-item
+        margin-bottom 5px
+      a
+        color color-white
+      ul
+        margin 0
+        padding 0
+        list-style none
+    &-close
+      position absolute
+      background-image url('/images/icon/icon_close_white@2x.png')
+      width 24px
+      height 24px
+      background-repeat repeat
+      background-size cover
+      right 10px
+      top 10px
     
-
-
-    //     white-space: nowrap;
-    // text-overflow: ellipsis;
-    // max-width: 80%;
-    // overflow: hidden;

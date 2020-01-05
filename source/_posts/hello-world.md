@@ -1,5 +1,8 @@
 ---
 title: It’s the end of world trade as we know it? WTO nears ‘doomsday scenario’
+date: 2018-11-23 20:34:22
+categories: 
+  - Tech 科技
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

@@ -4,12 +4,20 @@
   <% }) %>
 <% } else { %>
 
-  <% const title = page.category || page.tag || `${page.year} - ${page.month}` %>
-
-
+  <%
+    const date = []
+    if (page.year) {
+      date.push(page.year)
+    }
+    if (page.month) {
+      date.push(page.month)
+    }
+    const dateString = date.join(' - ')
+    const title = page.category || page.tag || dateString
+  %>
+  <% if (title) { %>
   <h1><%=title%></h1>
-
-
+  <% } %>
   <% if (page.posts.length){ %>
   <section class="archives-wrap">
     <div class="archives">

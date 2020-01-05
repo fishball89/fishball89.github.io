@@ -20,6 +20,8 @@ nav
     &:checked 
       & ~ .menu-items
         transform translateY(0)
+      & ~ .menu-icon
+        display none
   &-brand
     font-size 1.1rem
     align-items center
@@ -50,6 +52,7 @@ nav
     margin 0 20px
     cursor pointer
     @media mq-normal
+      display none
       width 20px
       height 20px  
     svg
@@ -61,16 +64,26 @@ nav
   &-items
     display flex
     transition transform .4s ease-in-out
-    transform translateY(-100%)
+    // transform translateY(-100%)
+    transform translateY("calc(%s - 100%)" % nav-height-mobile)
     position fixed
     width 100vw
     height 100vh
     top 0
     left 0
-    background rgba(0, 0, 0, 0.5)    
+    // background rgba(0, 0, 0, 0.6)    
+    
+    z-index -1
+
+    @media mq-normal
+      // transform translateY("calc(%s - 100%)" % nav-height-desktop)
+      transform none
+      position absolute
+      width 100%
+      height 100%
     &-bg
       mix-blend-mode multiply
-      background-image url('/images/menu.jpg')
+      background-image url('/images/aurora.jpg')
       background-repeat no-repeat
       background-size cover
       background-position center 
@@ -79,7 +92,7 @@ nav
       display flex
       position absolute
       z-index -1
-      opacity 0.8
+      // opacity 0.9
     &-categories-list
       margin 0
       padding 0
@@ -89,9 +102,19 @@ nav
       color color-white
       flex 1
       justify-content center
-      text-align center  
+      text-align center
+      @media mq-normal
+        flex-direction row
       &-item
         margin-bottom 5px
+        @media mq-normal
+          display flex
+          align-items center
+          font-size 1.2rem
+          margin 0 20px
+      &-child
+        @media mq-normal
+          display none
       a
         color color-white
       ul
@@ -101,10 +124,12 @@ nav
     &-close
       position absolute
       background-image url('/images/icon/icon_close_white@2x.png')
-      width 24px
-      height 24px
+      width 18px
+      height 18px
       background-repeat repeat
       background-size cover
-      right 10px
-      top 10px
+      right 12px
+      top 12px
+      @media mq-normal
+        display none
     

@@ -147,6 +147,9 @@ nav.menu {
 .menu-checkbox:checked ~ .menu-items {
   transform: translateY(0);
 }
+.menu-checkbox:checked ~ .menu-icon {
+  display: none;
+}
 .menu-brand {
   font-size: 1.1rem;
   align-items: center;
@@ -186,6 +189,7 @@ nav.menu {
 }
 @media screen and (min-width: 768px) {
   .menu-icon {
+    display: none;
     width: 20px;
     height: 20px;
   }
@@ -201,17 +205,25 @@ nav.menu {
 .menu-items {
   display: flex;
   transition: transform 0.4s ease-in-out;
-  transform: translateY(-100%);
+  transform: translateY(calc(40px - 100%));
   position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+@media screen and (min-width: 768px) {
+  .menu-items {
+    transform: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 }
 .menu-items-bg {
   mix-blend-mode: multiply;
-  background-image: url("/images/menu.jpg");
+  background-image: url("/images/aurora.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -220,7 +232,6 @@ nav.menu {
   display: flex;
   position: absolute;
   z-index: -1;
-  opacity: 0.8;
 }
 .menu-items-categories-list {
   margin: 0;
@@ -233,8 +244,26 @@ nav.menu {
   justify-content: center;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .menu-items-categories-list {
+    flex-direction: row;
+  }
+}
 .menu-items-categories-list-item {
   margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .menu-items-categories-list-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu-items-categories-list-child {
+    display: none;
+  }
 }
 .menu-items-categories-list a {
   color: #fff;
@@ -247,12 +276,17 @@ nav.menu {
 .menu-items-close {
   position: absolute;
   background-image: url("/images/icon/icon_close_white@2x.png");
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   background-repeat: repeat;
   background-size: cover;
-  right: 10px;
-  top: 10px;
+  right: 12px;
+  top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .menu-items-close {
+    display: none;
+  }
 }
 .header .banner {
   background-image: url("/images/mountain.jpg");

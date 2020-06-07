@@ -2,12 +2,11 @@
 title: 生命的第三次進化 - Life 3.0 閱後感
 date: 2020-06-07
 tags: 
-  - Artificial Intelligence 人工智能
+  - Artificial Intelligence
+  - Monthly Reads
 categories: 
-  - Books 書本
+  - Books
 ---
-
-# 生命的第三次進化 - Life 3.0 閱後感
 
 要數當代最熱門的科技話題，人工智能 (Artificial Intelligence) 必定是其中之一。彷彿把它作為賣點，產品的價值及效能便會增值不少。
 
@@ -27,10 +26,12 @@ categories:
 
 ### 生命的目的是什麼
 
-當未來生命以更長壽或更聰明的形態出現時，他們要解決的問題是什麼？作者是一位物理學家，他比較關注這種演化的目標是什麼。我對物理學的認知不多，有些地方也看不明白。但以我所理解。根據熱力學第二定律說明熱力的平衡狀態是不可逆轉，孤立系统自發地趨向熱平衡，達到熵的最大值。熵是用量度不能轉化為功的能量值，也描述予系統的混亂程度。由於自然界趨向熵的最大化，宇宙隨時間流逝，終有一天會達至[熱寂狀態](https://en.wikipedia.org/wiki/Heat_death_of_the_universe)(Heat Death)。
+當未來生命以更長壽或更聰明的形態出現時，他們要解決的問題是什麼？作者是一位物理學家，他比較關注這種演化的目標是什麼。我對物理學的認知不多，有些地方也看不明白。但以我所理解。根據熱力學第二定律說明熱力的平衡狀態是不可逆轉，孤立系统自發地趨向熱平衡，達到熵的最大值。熵是用量度不能轉化為功的能量值，也描述予系統的混亂程度。由於自然界趨向熵的最大化，宇宙隨時間流逝，終有一天會達至[熱寂狀態](https://en.wikipedia.org/wiki/Heat_death_of_the_universe)(Heat Death)。<br><br>
+
 
 > The heat death of the universe, also known as the Big Chill or Big Freeze,[1] is a conjecture on the ultimate fate of the universe, which suggests the universe would evolve to a state of no thermodynamic free energy and would therefore be unable to sustain processes that increase entropy.
 
+<br>
 生命其實是一種相對穩定的負熵狀態，依賴能量抗衡自然發生的熵增。倘若不幸地人類是宇宙唯一的生命體。探索能量，維持生命的延續，就是我們終極的目標。可是，地球能源始終有限，人類轉換能量的效率卻仍然低下。探索太空的必要性就顯得逼切。以現行的科技來說，就算有用不盡的能量，人的壽命也撐不過整趟太空旅程。
 
 ### 未來人工智能的發展，會不會是就問題的答案？
@@ -39,7 +40,6 @@ categories:
 
 
 書籍購自Amazon:
-
 https://www.amazon.com/dp/B06WGNPM7V/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
 
 

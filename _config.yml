@@ -7,7 +7,7 @@ title: 非同步日常 | Async Daily
 subtitle: ''
 description: ''
 keywords:
-author: Kevin Wan
+author: KW
 # language: zh-TW
 language: en
 timezone: ''
@@ -16,7 +16,7 @@ timezone: ''
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://fishball89.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:post_title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing index.html from permalinks

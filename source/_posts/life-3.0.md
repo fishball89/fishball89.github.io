@@ -1,12 +1,18 @@
----
-title: 生命的第三次進化 - Life 3.0 閱後感
-date: 2020-06-07
-tags: 
-  - Artificial Intelligence
-  - Monthly Reads
-categories: 
-  - Books
----
+;;;
+"title": "[閱後感] 生命的第三次進化 - Life 3.0",
+"date": "2020-06-07",
+"slug": "life-3.0",
+"tags": [
+  "Humanities",
+  "Monthly Reads",
+  "Max Tegmark"
+],
+"categories": [
+  "Books",
+  "Reviews"
+]
+;;;
+
 
 要數當代最熱門的科技話題，人工智能 (Artificial Intelligence) 必定是其中之一。彷彿把它作為賣點，產品的價值及效能便會增值不少。
 

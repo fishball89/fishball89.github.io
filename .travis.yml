@@ -19,4 +19,4 @@ deploy:
   target_branch: master
   on:
     branch: github-pages
-  local-dir: public
+  local-dir: out

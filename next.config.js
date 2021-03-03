@@ -23,7 +23,7 @@ module.exports = {
     config.resolve.modules.push(path.resolve('./'))
 
     config.module.rules.push({
-      test: /(\.md|\.css)$/,
+      test: /(\.md)$/,
       use: [
         'raw-loader',
       ]

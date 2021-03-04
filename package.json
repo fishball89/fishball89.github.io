@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export",
+    "export": "next build && next-sitemap && next export",
     "start": "next start",
-    "postbuild": "next-sitemap",
+    "sitemap": "next-sitemap",
     "eslint": "node_modules/eslint/bin/eslint.js --ext .js .",
     "eslint-fix": "node_modules/eslint/bin/eslint.js --ext .js --fix ."
   },

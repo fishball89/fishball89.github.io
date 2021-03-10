@@ -1,4 +1,5 @@
 import get from 'lodash/get'
+import random from 'lodash/random'
 
 import styled from 'styled-components'
 import { respondTo } from 'styles/mixins/respond-to'
@@ -32,8 +33,8 @@ const StyledBackdrop = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
+  ${props => `background-image: url('${props.imgSrc}');`}
   
-  background-image: url('https://images.pexels.com/photos/1796731/pexels-photo-1796731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -57,9 +58,10 @@ const StyledPlaceholder = styled.div`
 
 function Backdrop ({ pageProps }) {
   const { data = {} } = pageProps
+  const imgSrc = `/images/${random(1, 4)}.jpg`
 
   return (
-    <StyledBackdrop className="container-fluid">
+    <StyledBackdrop className="container-fluid" imgSrc={imgSrc}>
       <StyledHeadline>
         <StyledHeading>{ data.title }</StyledHeading>
         <time>{ data.date }</time>

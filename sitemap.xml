@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://fishball89.github.io</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-04T10:20:09.870Z</lastmod></url>
-<url><loc>https://fishball89.github.io/post/life-3.0</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-04T10:20:09.870Z</lastmod></url>
-<url><loc>https://fishball89.github.io/post/guns-germs-steel</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-04T10:20:09.870Z</lastmod></url>
-<url><loc>https://fishball89.github.io/post/energy-for-future-presidents</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-04T10:20:09.870Z</lastmod></url>
-<url><loc>https://fishball89.github.io/post/a-little-history-of-economics</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-04T10:20:09.870Z</lastmod></url>
+<url><loc>https://fishball89.github.io</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-10T13:51:07.849Z</lastmod></url>
+<url><loc>https://fishball89.github.io/post/next-js-markdown-page-generation</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-10T13:51:07.850Z</lastmod></url>
+<url><loc>https://fishball89.github.io/post/life-3.0</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-10T13:51:07.850Z</lastmod></url>
+<url><loc>https://fishball89.github.io/post/guns-germs-steel</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-10T13:51:07.850Z</lastmod></url>
+<url><loc>https://fishball89.github.io/post/energy-for-future-presidents</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-10T13:51:07.850Z</lastmod></url>
+<url><loc>https://fishball89.github.io/post/a-little-history-of-economics</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-03-10T13:51:07.850Z</lastmod></url>
 </urlset>
